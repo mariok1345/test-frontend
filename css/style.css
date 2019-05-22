@@ -1,0 +1,2080 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    background-image: url('../img/img-header-1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+
+    height:80%;
+}
+
+/* icono del menu */
+
+.icon-nav {
+    height: 60px;
+    width: 60px;
+    margin: 25px 10px 0px 20px;
+    float: left;
+    /* titulo del menu */
+}
+
+.nav-title {
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 60px;
+    padding: 17px 17px 18px;
+    margin: 0px;
+    float: left;
+    width: 20%;
+    background: transparent;
+    font-weight:100px;
+}
+
+/* menu */
+
+nav {
+    padding: 25px 17px 18px;
+    margin: 0;
+    width: 65%;
+    display: inline-block;
+}
+
+header nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li {
+    float: right;
+    margin: 0;
+    display: inline;
+    width: 16%;
+    text-align: center;
+    background: transparent;
+}
+
+header nav ul li:hover {
+    background: none;
+    font-style: bold;
+    transform: scale(1.2);
+
+
+}
+
+header nav ul li a {
+    text-decoration: none !important;
+    padding: 25px 20px;
+
+    margin: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'KoHo', sans-serif;
+    font-size: 1rem;
+}
+
+header nav ul li a:focus {
+    outline: none;
+    text-decoration: none !important;
+
+}
+.cont a{
+  color: white;
+}
+.jour a{
+  color: white;
+}
+.wor a{
+  color: white;
+}
+.abu a{
+  color: white;
+}
+
+/* decoracion de el link de home */
+
+#font1 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font2 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font3 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font4 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+
+
+
+
+/* contenido del header */
+
+.container-header {
+
+    height: 60%;
+    clear: both;
+    display: grid;
+    grid-template-columns: 4%;
+    grid-template-rows: 150px 150px 150px;
+
+}
+
+/* links de redes sociales */
+.item-1 a{
+color: white;
+}
+.item-2 a{
+  color: white;
+}
+.item-3 a{
+  color: white;
+}
+.item-1 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item-2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item-3 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.item-1 a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: scale(1.2);
+  color: white;
+}
+.item-2 a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: scale(1.2);
+  color: white;
+}
+.item-3 a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: scale(1.2);
+  color: white;
+}
+
+/* box de more content */
+
+.item-4 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    left: 90%;
+    top: 35%;
+}
+
+/* Introduccion */
+
+.content-1 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom:200px;
+    left: 15%;
+    text-align: start;
+}
+/* texto de inicio */
+.intro-1{
+    font-weight:bolder:;
+    padding-left: 5%;
+}
+.intro-2{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-weight:bold;
+    font-size: 40px;
+    padding-left: 5%;
+}
+.p-intro{
+    padding-left: 5%;
+    font-weight:bold;
+
+}
+
+/* contenido imagen */
+
+.conteiner {
+    display: grid;
+    height: 90%;
+}
+
+/* decoracion de imagen */
+
+.box {
+    width: 140px;
+    height: 140px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 55%;
+    top:150%;
+}
+
+/* imagen reno */
+
+.img-content {
+    width: 250px;
+    height: 350px;
+    background-image: url('../img/img-reno.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+    top:120%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+/* box-contenido */
+
+.box-content {
+    height: 10%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 15px;
+    justify-content: center;
+}
+
+/* decoracion de texto */
+
+.box-title {
+    width: 100px;
+    background: blue;
+    text-align: center;
+}
+
+/* Title Hello*/
+
+.welcome {
+    font-size: 28px;
+    position: relative;
+    bottom: 20px;
+}
+
+/* contenedor de informacion */
+
+.conteiner-info {
+    height: 40%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 250px;
+    justify-content: center;
+    text-align: center
+}
+
+/* informacion */
+
+.box-information {
+    width: 500px;
+
+
+}
+/* texto */
+
+/* inicio de galeria */
+
+.inicio-galeria {
+    height: 30%;
+    width: 100%;
+}
+
+/* my works */
+
+.content-2 {
+    width: 50%;
+    height: 60%;
+
+    position: relative;
+    left: 10%;
+}
+/* titulo de la galeria */
+.intro-3{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 5%;
+}
+.p-content-1{
+    padding-left: 5%;
+}
+
+
+.galeria-1 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    height: 80%;
+    margin-bottom: 10%;
+    justify-content: center;
+
+}
+
+.a1 {
+    background-image: url('../img/img-a1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.a2 {
+    grid-column: 2;
+    grid-row: 1/3;
+    background-image: url('../img/img-a2.jpg');
+    background-size: cover;
+}
+
+.a3 {
+    background-image: url('../img/img-a3.jpg');
+    background-size: cover;
+}
+
+.a4 {
+    background-image: url('../img/img-a4.jpg');
+    background-size: cover;
+}
+
+.a5 {
+    background-image: url('../img/img-a5.jpg');
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.a6 {
+    grid-column: 3/5;
+    background-image: url('../img/img-a6.jpg');
+    background-size: cover;
+}
+
+/* cantidad de contenido */
+
+.box-cantidad-contenido {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 20px;
+    grid-gap: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* cajas y cantidades */
+
+.cantidad-1 {
+    width: 150px;
+    background: blue;
+    text-align: center;
+}
+
+/* clientes*/
+
+.clientes {
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+    margin: 0px;
+}
+
+.sub-1 {
+    font-size: 25px;
+    margin: 0;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    top: -30px;
+    text-align: initial;
+}
+
+.cantidad-2 {
+    width: 150px;
+    background: blue;
+    text-align: center;
+}
+
+/* photos*/
+
+.photos {
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.sub-2 {
+    font-size: 25px;
+    margin: 0;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    top: -38px;
+    text-align: initial;
+}
+
+.cantidad-3 {
+    width: 150px;
+    background: blue;
+    text-align: center;
+}
+
+/* albunes*/
+
+.albums {
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.sub-3 {
+    font-size: 25px;
+    margin: 0;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    top: -38px;
+    text-align: initial;
+}
+/* Testimonio */
+.conteiner-tes{
+display: grid;
+grid-template-columns: 30%;
+grid-template-rows: 40%;
+justify-content: center;
+align-content: flex-end;
+text-align: center;
+height: 50%;
+
+}
+.box-tes{
+
+}
+.testy{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+}
+/* container carusel */
+
+.container-carusel {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Carusel */
+
+#carouselExampleIndicators {
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+/* contenedores de imagenes */
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    background: blue;
+    height: 100%;
+}
+
+.carousel-item img {
+    max-height: 500px;
+
+}
+
+/* inicio de los precios */
+
+.container-pricing {
+    height: 30%;
+    width: 100%;
+
+    margin-bottom: 2%;
+}
+/* texto */
+.t-pricing{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 12%;
+}
+.p-pricing{
+    padding-left: 12%;
+}
+/*galeria de los precios  */
+
+.galeria-pricing {
+    display: grid;
+    height: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 400px;
+    margin-bottom: 15%;
+}
+
+.pricing {
+   color:blanchedalmond;
+   height: 110%;
+
+}
+.p1{
+    background-image: url('../img/precing-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-model {
+    width: 175px;
+    height: 20px;
+    background: blue;
+   margin-left:2%;
+    padding-left: 5%;
+}
+
+
+.model {
+    font-size: 28px;
+    position: relative;
+    top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.pre-1{
+    font-size: 50px;
+}
+
+.p2{
+    background-image: url('../img/precing-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-o {
+    width: 175px;
+    height: 20px;
+    background: blue;
+   margin-left:2%;
+    padding-left: 5%;
+}
+
+/* Title Hello*/
+
+.model-o {
+    font-size: 28px;
+    position: relative;
+    top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.pre-2{
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3{
+    background-image: url('../img/precing-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-space {
+    width: 175px;
+    height: 20px;
+    background: blue;
+   margin-left:2%;
+    padding-left: 5%;
+}
+
+/* Title Hello*/
+
+.model-space {
+    font-size: 28px;
+    position: relative;
+    top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.pre-3{
+    font-size: 50px;
+}
+
+.p4{
+    background-image: url('../img/precing-4.jpg');
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-g {
+    width: 175px;
+    height: 20px;
+    background: blue;
+   margin-left:2%;
+    padding-left: 5%;
+}
+.pre-4{
+    font-size: 40px;
+}
+
+/* Title Hello*/
+
+.model-g {
+    font-size: 28px;
+    position: relative;
+    top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+
+/* galeria de Marcas */
+
+.galeria-marcas {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 60% 60%;
+    height: 50%;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.itemh {
+
+   border:1px solid #333;
+}
+
+.b1 {
+    background-image: url('../img/ico-1.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.b2 {
+    background-image: url('../img/ico-2.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.b3 {
+    background-image: url('../img/ico-3.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.b4 {
+    background-image: url('../img/ico-4.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.b5 {
+    background-image: url('../img/ico-5.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.b6 {
+    background-image: url('../img/ico-6.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.b7 {
+    background-image: url('../img/ico-7.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.b8 {
+    background-image: url('../img/ico-8.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/* container imput */
+
+
+
+.container-imput-1 {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100%;
+    height: 80%;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-imput-1 {
+
+}
+.title-input-1{
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Asap', sans-serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+/* formulario con input y botones */
+.form-email-1 {
+    margin-top: 30%;
+
+  }
+  .imput-1 {
+     height: 45px;
+     width: 300px;
+     background: #333;
+     border:1px solid white;
+ }
+  .button-1 {
+     color: white;
+     background: #333;
+     width: 90px;
+     height: 50px;
+     border:1px solid white;
+
+  }
+
+
+/* Footer */
+
+.galeria-footer {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-gap: 5%;
+    grid-template-rows: 50%;
+    height: 50%;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.itemi {
+
+}
+.p-b {
+    color: white;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+}
+.c1{
+    font-size:1.2em;
+}
+.c2{
+    font-size:1.2em;
+}
+.c3{
+    font-size:1.2em;
+}
+/* responsive */
+
+@media screen and (max-width:2560px){
+  /* decoracion de imagen */
+
+  .box {
+      width: 140px;
+      height: 140px;
+      background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+      background-size: 10px 10px;
+      position: absolute;
+      z-index: 1;
+      left: 52%;
+      bottom: -75%;
+  }
+
+  /* imagen reno */
+
+  .img-content {
+      width: 250px;
+      height: 350px;
+      background-image: url('../img/img-reno.jpg');
+      position: absolute;
+      z-index: 2;
+      left: 43.5%;
+      bottom: -70%;
+      box-shadow: 0px 5px 10px #333;
+  }
+
+}
+@media screen and (max-width:1360px){
+  header {
+      background-image: url('../img/img-header-1.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      height:95%;
+  }
+  /* titulo de inicio*/
+  .nav-title {
+      font-family: 'Covered By Your Grace', cursive;
+      font-family: 'Nothing You Could Do', cursive;
+      color:#158DBD;
+      font-size: 60px;
+      padding: 17px 17px 18px;
+      margin: 0px;
+      float: left;
+      width: 20%;
+      background: transparent;
+      font-weight:100px;
+  }
+  /* segundo titulo */
+  .intro-2{
+      font-family: 'Covered By Your Grace', cursive;
+      font-family: 'Nothing You Could Do', cursive;
+      color:#158DBD;
+      font-weight:400px;
+      font-size: 40px;
+      padding-left: 5%;
+      padding-top:6%;
+  }
+/* parrafo */
+.p-intro{
+    padding-left: 5%;
+    padding-top:4%;
+    font-weight:bold;
+
+}
+.box {
+    width: 140px;
+    height: 140px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left:53%;
+    top:152%;
+}
+
+/* imagen reno */
+
+.img-content {
+    width: 250px;
+    height: 350px;
+    background-image: url('../img/img-reno.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 41%;
+    top:110%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+}
+@media screen and (max-width:1070px) {
+    nav {
+        padding: 25px 17px 18px;
+        margin-left: 15%;
+        width: 45%;
+        display: inline-block;
+    }
+    .header-3 nav ul {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    nav ul li {
+        float: right;
+        margin: 0;
+        display: inline;
+        width: 25%;
+        text-align: center;
+        background: transparent;
+    }
+
+    /* titulo */
+    .title-contac {
+        color: white;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 60px;
+        position: absolute;
+        bottom: 55%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:1029px){
+    nav ul li {
+        float: right;
+        margin: 0;
+        display: inline;
+        width: 25%;
+        text-align: center;
+        background: transparent;
+    }
+
+}
+@media screen and (max-width:830px){
+    .title-contac {
+        color: white;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 60px;
+        position: absolute;
+        bottom: 60%;
+        left: 20%;
+    }
+}
+@media screen and (max-width:806px){
+    nav {
+        padding: 25px 17px 18px;
+        margin-left: 15%;
+        width: 35%;
+        display: inline-block;
+    }
+    .header-3 nav ul {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    nav ul li {
+        float: right;
+        margin: 0;
+        display: inline;
+        width: 35%;
+        text-align: center;
+        background: transparent;
+    }
+
+}
+
+
+/* Aboutme.html.................................................................................................................. */
+
+.body-2 {
+    margin: 0;
+    padding: 0;
+    background: rgb(8, 8, 8);
+    color: white;
+    height: 100vh;
+}
+
+/* header */
+
+.header-2 {
+    display: grid;
+    height: 40%;
+}
+
+/* icono del menu */
+
+.icon-nav-2 {
+    height: 60px;
+    width: 60px;
+    margin: 25px 10px 0px 20px;
+    float: left;
+    /* titulo del menu */
+}
+
+.nav-title-2 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 60px;
+    padding: 17px 17px 18px;
+    margin: 0px;
+    float: left;
+    width: 20%;
+    background: transparent;
+    font-weight: 100;
+}
+
+/* menu */
+
+nav {
+    padding: 25px 17px 18px;
+    margin: 0;
+    width: 65%;
+    display: inline-block;
+}
+
+.header-2 nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li {
+    float: right;
+    margin: 0;
+    display: inline;
+    width: 16%;
+    text-align: center;
+    background: transparent;
+}
+
+.header-2 nav ul li:hover {
+    background: none;
+    font-style: bold;
+    transform: scale(1.2);
+}
+
+.header-2 nav ul li a {
+    text-decoration: none !important;
+    padding: 25px 20px;
+    color: #fff;
+    margin: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'KoHo', sans-serif;
+    font-size: 1rem;
+}
+
+.header-2 nav ul li a:focus {
+    outline: none;
+    text-decoration: none !important;
+}
+
+
+/* contenedor de informacion*/
+
+.conteiner-info-2 {
+    height: 50%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* informacion */
+
+.box-information-2 {
+    width: 500px;
+
+}
+/* font */
+.titulo-i1{
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Asap', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+/* contenedor 1 de imgen y diseno */
+
+.conteiner-2 {
+    display: grid;
+    height: 90%;
+}
+
+/* decoracion de imagen */
+
+.box-2 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 30.5%;
+    bottom: -58%;
+}
+
+/* */
+
+.img-content-2 {
+    width: 250px;
+    height: 350px;
+    background-image:url('../img/img-about-1.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    bottom: -50%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.box-inf {
+    width: 500px;
+    height: 300px;
+
+    position: relative;
+    top: 5%;
+    left: 50%;
+    z-index: 3;
+}
+.titulo-i2{
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Asap', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.p-01{
+    letter-spacing: 0.5pt;
+}
+
+/* item de imagen 1*/
+
+.numero-1 {
+
+    font-size: 100px;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    bottom: 45%;
+    right: 10%;
+}
+
+/* segunda imagen */
+
+.conteiner-3 {
+    display: grid;
+    height: 90%;
+}
+
+/* decoracion de imagen */
+
+.box-3 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 222%;
+    left: 75.5%;
+}
+
+/*  */
+
+.img-content-3 {
+    width: 250px;
+    height: 350px;
+    background-image:url('../img/img-about-2.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 65%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.box-inf-3 {
+    width: 500px;
+    height: 300px;
+
+    position: relative;
+    bottom: ;
+    left: 20%;
+    z-index: 3;
+}
+.titulo-i3{
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Asap', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.p-02{
+    letter-spacing: 0.5pt;
+}
+
+/* item de imagen */
+
+.numero-2 {
+
+    font-size: 100px;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    bottom: 45%;
+    left: 80%;
+}
+
+/* tercera imagen */
+
+.conteiner-4 {
+    display: grid;
+    height: 90%;
+}
+
+/* decoracion de imagen */
+
+.box-4 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 30.5%;
+    bottom: -238%;
+}
+
+/* */
+
+.img-content-4 {
+    width: 250px;
+    height: 350px;
+    background-image:url('../img/img-about-3.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.box-inf-4 {
+    width: 500px;
+    height: 300px;
+
+    position: relative;
+    bottom: ;
+    left: 50%;
+    z-index: 3;
+}
+.titulo-i4{
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Asap', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.p-03{
+    letter-spacing: 0.5pt;
+}
+
+
+/* item de imagen 1*/
+
+.numero-3 {
+
+    font-size: 100px;
+    font-family: 'Nanum Pen Script', cursive;
+    position: relative;
+    bottom: 45%;
+    right: 10%;
+}
+
+/* informacion intermedia */
+
+.inf-section {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-gap: 5%;
+    grid-template-rows: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.itemj {
+
+}
+
+/* video */
+
+#video-1 {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 10%;
+}
+
+/* contenedor input */
+
+.container-imput-2 {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100%;
+    height: 80%;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-imput-2 {
+
+}
+.title-input{
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Asap', sans-serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: 100;
+
+}
+/* formulario con input y botones */
+.form-email {
+    margin-top: 30%;
+
+  }
+  .imput {
+     height: 45px;
+     width: 300px;
+     background: #333;
+     border:1px solid white;
+ }
+  .button {
+     color: white;
+     background: #333;
+     width: 90px;
+     height: 50px;
+     border:1px solid white;
+
+  }
+
+.galeria-footer-2 {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-gap: 5%;
+    grid-template-rows: 50%;
+    height: 50%;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.itemk {
+
+}
+/*  */
+.p-d {
+    color: white;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+}
+#font5 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font6 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+
+
+/* responsive segunda pagina */
+@media screen and (max-width:2560px){
+    /* imagen 1 con decoration */
+    .box-2 {
+        width: 150px;
+        height: 150px;
+        background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+        background-size: 10px 10px;
+        position: absolute;
+        z-index: 1;
+        left: 25.9%;
+        bottom: -43.9%;
+    }
+
+    /* */
+
+    .img-content-2 {
+        width: 250px;
+        height: 350px;
+        background-image:url('../img/img-about-1.jpg');
+        position: absolute;
+        z-index: 2;
+        left: 18%;
+        bottom: -35%;
+        box-shadow: 0px 5px 10px #333;
+    }
+
+    .box-inf {
+        width: 500px;
+        height: 300px;
+
+        position: relative;
+        top: 5%;
+        left:60%;
+        z-index: 3;
+    }
+
+    /* image dos */
+    .box-3 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 210%;
+    left: 72.9%;
+  }
+
+  /*  */
+
+  .img-content-3 {
+    width: 250px;
+    height: 350px;
+    background-image:url('../img/img-about-2.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 65%;
+    box-shadow: 0px 5px 10px #333;
+  }
+
+  .box-inf-3 {
+    width: 500px;
+    height: 300px;
+
+    position: relative;
+    bottom: ;
+    left: 17%;
+    z-index: 3;
+  }
+  /*tercer imagen  */
+  /* decoracion de imagen */
+
+  .box-4 {
+  width: 150px;
+  height: 150px;
+  background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+  background-size: 10px 10px;
+  position: absolute;
+  z-index: 1;
+  left: 25.9%;
+  bottom:-215%;
+  }
+
+  /* */
+
+  .img-content-4 {
+  width: 250px;
+  height: 350px;
+  background-image:url('../img/img-about-3.jpg');
+  position: absolute;
+  z-index: 2;
+  left: 18%;
+  box-shadow: 0px 5px 10px #333;
+  }
+
+  .box-inf-4 {
+  width: 500px;
+  height: 300px;
+
+  position: relative;
+  bottom: ;
+  left: 60%;
+  z-index: 3;
+  }
+}
+@media screen and (max-width:1360px){
+  .box-2 {
+      width: 150px;
+      height: 150px;
+      background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+      background-size: 10px 10px;
+      position: absolute;
+      z-index: 1;
+      left: 29%;
+      bottom: -42.9%;
+  }
+  .box-3 {
+  width: 150px;
+  height: 150px;
+  background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+  background-size: 10px 10px;
+  position: absolute;
+  z-index:1;
+  top:220%;
+  left: 76.5%;
+}
+.box-4 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 29%;
+    bottom:-235%;
+}
+
+
+
+}
+@media screen and (max-width:1300px){
+    .box-2 {
+        width: 150px;
+        height: 150px;
+        background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+        background-size: 10px 10px;
+        position: absolute;
+        z-index: 1;
+        left: 16%;
+        bottom: -63.9%;
+    }
+
+    /* */
+
+    .img-content-2 {
+        width: 250px;
+        height: 350px;
+        background-image:url('../img/img-about-1.jpg');
+        position: absolute;
+        z-index: 2;
+        left: 5%;
+        bottom: -55%;
+        box-shadow: 0px 5px 10px #333;
+    }
+
+    .box-inf {
+        width: 500px;
+        height: 300px;
+
+        position: relative;
+        top: 5%;
+        left:40%;
+        z-index: 3;
+    }
+
+    .box-3 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index:1;
+    top: 230%;
+    left: 71.5%;
+}
+.img-content-3 {
+    width: 250px;
+    height: 350px;
+    background-image:url('../img/img-about-2.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 60%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.box-inf-3 {
+    width: 500px;
+    height: 300px;
+
+    position: relative;
+    bottom: ;
+    left: 5%;
+    z-index: 3;
+}
+    /*tercer imagen  */
+/* decoracion de imagen */
+
+.box-4 {
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(circle, blue, blue 2px, black 2px, black);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 16%;
+    bottom:-450%;
+}
+
+/* */
+
+.img-content-4 {
+    width: 250px;
+    height: 350px;
+    background-image:url('../img/img-about-3.jpg');
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.box-inf-4 {
+    width: 500px;
+    height: 300px;
+
+    position: relative;
+    bottom: ;
+    left: 40%;
+    z-index: 3;
+}
+}
+
+
+
+
+
+
+
+/* tercer template contacto................................................................................................................ */
+
+.body-3 {
+    margin: 0;
+    padding: 0;
+    background: rgb(8, 8, 8);
+    color: white;
+    height: 100vh;
+}
+
+/* header */
+
+.header-3 {
+    display: grid;
+    height: 40%;
+}
+
+/* icono del menu */
+
+.icon-nav-3 {
+    height: 60px;
+    width: 60px;
+    margin: 25px 10px 0px 20px;
+    float: left;
+    /* titulo del menu */
+}
+
+.nav-title-3 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 60px;
+    padding: 17px 17px 18px;
+    margin: 0px;
+    float: left;
+    width: 20%;
+    background: transparent;
+    font-weight: 100;
+}
+
+/* menu */
+
+nav {
+    padding: 25px 17px 18px;
+    margin: 0;
+    width: 65%;
+    display: inline-block;
+}
+
+.header-3 nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li {
+    float: right;
+    margin: 0;
+    display: inline;
+    width: 16%;
+    text-align: center;
+    background: transparent;
+}
+
+.header-3 nav ul li:hover {
+    background: none;
+    font-style: bold;
+    transform: scale(1.2);
+}
+
+.header-3 nav ul li a {
+    text-decoration: none !important;
+    padding: 25px 20px;
+    color: #fff;
+    margin: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'KoHo', sans-serif;
+    font-size: 1rem;
+}
+
+.header-3 nav ul li a:focus {
+    outline: none;
+    text-decoration: none !important;
+}
+
+/* contenido de contacto */
+
+.container-contacto {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    grid-template-rows: 70%;
+    height: 80vh;
+    justify-content: center;
+    margin-top: 10%;
+    grid-gap: 5%;
+}
+
+.contac {}
+
+.imb {
+    border: 5px solid blue;
+
+    object-fit: cover;
+
+}
+
+/* galeria footer */
+
+.galeria-footer-3 {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-gap: 5%;
+    grid-template-rows: 80%;
+    height: 40vh;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.iteml {}
+
+/* titulo de contacto */
+
+.title-contac {
+    color: white;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 60px;
+    position: absolute;
+    bottom: 55%;
+    left: 20%;
+    font-weight: 100;
+}
+
+.p-c {
+    color: white;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+}
+#font9 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font10 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font11 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+
+/* responsive titulo contacto */
+@media screen and (max-width:2560px){
+  .title-contac {
+      color: white;
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 60px;
+      position: absolute;
+      bottom: 70%;
+      left: 12%;
+      font-weight: 100;
+
+}
+
+}
+@media screen and (max-width:1360px){
+  .title-contac {
+      color: white;
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 60px;
+      position: absolute;
+      bottom:60%;
+      left: 12%;
+      font-weight:100;
+  }
+}
+
+
+
+
+/* cuarta pagina works */
+.headerw{
+  background-image: url(../img/header-img2.jpg);
+  background-position:10%;
+
+
+  height: 70%;
+  margin-bottom:10%;
+
+}
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows:repeat(10,200px);
+  grid-gap: 35px;
+
+  justify-content: center;
+
+
+}
+/* Bounce In */
+.itema{
+
+
+-webkit-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+.itema:hover, .itema:focus, .itema:active {
+-webkit-transform: scale(1.09);
+transform: scale(1.09);
+background-color:#f7992b;
+cursor: pointer;
+
+}
+
+
+.a10{
+
+  grid-column: 1;
+  grid-row: 1/3;
+
+}
+#img1:hover{
+opacity: 0.5;
+
+}
+
+
+.b11{
+  grid-column: 2;
+  grid-row: 1/4;
+
+
+}
+#img2:hover{
+opacity: 0.5;
+
+}
+.c12{
+  grid-column: 3;
+  grid-row: 1/3;
+
+}
+#img3:hover{
+opacity: 0.5;
+
+}
+
+.d13{
+  grid-column: 1;
+  grid-row: 3/6;
+
+}
+#img4:hover{
+opacity: 0.5;
+}
+
+.e14{
+  grid-column: 3;
+  grid-row: 3/6;
+
+}
+#img5:hover{
+opacity: 0.5;
+}
+.f15{
+  grid-column: 2;
+  grid-row: 4/6  ;
+
+}
+#img6:hover{
+opacity: 0.5;
+}
+
+  .g16{
+    grid-column: 1;
+    grid-row: 6/8  ;
+  }
+  #img7:hover{
+  opacity: 0.5;
+  }
+
+  .h17{
+    grid-column: 2;
+    grid-row: 6/9  ;
+  }
+  #img8:hover{
+  opacity: 0.5;
+  }
+  .i18{
+    grid-column: 3;
+    grid-row: 6/8 ;
+  }
+  #img8:hover{
+  opacity: 0.5;
+  }
+
+  .j19{
+    grid-column: 1;
+    grid-row: 8/11  ;
+  }
+  #img9:hover{
+  opacity: 0.5;
+  }
+  .k20{
+    grid-column: 3;
+    grid-row: 8/11  ;
+
+  }
+  #img10:hover{
+  opacity: 0.5;
+  }
+  .l21{
+    grid-column: 2;
+    grid-row: 9/11;
+    text-align: center;
+
+  }
+  .pw1{
+    font-family: 'Paytone One', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  color: rgb(8, 8, 8);
+  font-size: 25px;
+
+  }
+  .divf{
+    display: grid;
+    background-color:black;
+    height:600px;
+
+
+  }
+  .df{
+    background-color:#0D4AC1;
+    height: 400px;
+    width: 650px;
+    z-index: 1;
+    position:absolute;
+    top:3310px;
+    left: 330px;
+    border: solid 5px white;
+    text-align:center;
+
+      }
+  .ddf{
+    background-color:#491534;
+    height: 400px;
+    width: 650px;
+    z-index:0;
+    position:relative;
+    top: 170px;
+    left: 350px;
+    border: solid 5px white;
+  }
+.pw2{
+  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  font-size: 40px;
+  margin-top:50px;
+  font-weight: bold;
+
+}
+#font7 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+#font8 {
+    background: blue;
+    height: 36px;
+    width: 15%;
+}
+/* responsive works */
+@media screen and (max-width:1360px){
+  .pw1{
+    font-family: 'Paytone One', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  color: rgb(8, 8, 8);
+  font-size: 18px;
+  }
+  .df{
+    background-color:#0D4AC1;
+    height: 400px;
+    width: 650px;
+    z-index: 1;
+    position:absolute;
+    top:2980px;
+    left: 330px;
+    border: solid 5px white;
+    text-align:center;
+
+      }
+  .ddf{
+    background-color:#491534;
+    height: 400px;
+    width: 650px;
+    z-index:0;
+    position:relative;
+    top: 123px;
+    left: 355px;
+    border: solid 5px white;
+  }
+
+}
